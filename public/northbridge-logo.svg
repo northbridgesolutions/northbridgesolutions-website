@@ -1,0 +1,38 @@
+<svg width="768" height="534" viewBox="0 0 768 534" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bridge Arch -->
+  <g opacity="0.9">
+    <!-- Outer arch border (dark navy) -->
+    <path d="M186 242 C186 180, 240 140, 384 140 C528 140, 582 180, 582 242" 
+          stroke="#1a1f3a" stroke-width="8" fill="none"/>
+    
+    <!-- Middle arch (gradient silver/blue) -->
+    <defs>
+      <linearGradient id="archGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#6B7FB8;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#B8C5E0;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#6B7FB8;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    
+    <!-- Top platform -->
+    <rect x="186" y="234" width="396" height="16" fill="url(#archGradient)" rx="2"/>
+    
+    <!-- Main arch -->
+    <path d="M210 242 C210 195, 260 165, 384 165 C508 165, 558 195, 558 242" 
+          stroke="url(#archGradient)" stroke-width="28" fill="none"/>
+    
+    <!-- Inner arch border -->
+    <path d="M234 242 C234 210, 280 190, 384 190 C488 190, 534 210, 534 242" 
+          stroke="#1a1f3a" stroke-width="6" fill="none"/>
+  </g>
+
+  <!-- NORTHBRIDGE Text -->
+  <text x="384" y="380" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="4">NORTHBRIDGE</text>
+  
+  <!-- Divider Lines -->
+  <line x1="105" y1="430" x2="270" y2="430" stroke="white" stroke-width="2"/>
+  <line x1="498" y1="430" x2="663" y2="430" stroke="white" stroke-width="2"/>
+  
+  <!-- Solutions Text -->
+  <text x="384" y="455" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="300" fill="white" text-anchor="middle" letter-spacing="12">Solutions</text>
+</svg>
