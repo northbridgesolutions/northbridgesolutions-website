@@ -70,7 +70,7 @@ export function ServicesSection() {
           {services.map((service, i) => (
             <div
               key={i}
-              className="group p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-blue-500/50 transition-all duration-300 backdrop-blur-sm"
+              className="group p-6 rounded-2xl bg-gradient-to-br from-[#1a1f3a] via-[#252b4a] to-[#1a2847] border border-white/10 hover:border-blue-500/50 transition-all duration-300 shadow-lg hover:shadow-blue-500/20"
             >
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <service.icon className="w-6 h-6 text-white" />
@@ -78,7 +78,7 @@ export function ServicesSection() {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {service.title}
               </h3>
-              <p className="text-white/60">{service.description}</p>
+              <p className="text-white/70">{service.description}</p>
             </div>
           ))}
         </div>

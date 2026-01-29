@@ -27,7 +27,7 @@ export function AboutSection() {
           {/* Content Side with colored background */}
           <div className="bg-gradient-to-br from-[#1a1f3a] via-[#252b4a] to-[#1a2847] p-12 lg:p-16 flex flex-col justify-center">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Why Choose Northbridge?
+              Why Choose Northbridge solutions?
             </h2>
             <p className="text-white/90 text-lg mb-8 leading-relaxed">
               We're not just developers – we're your technology partners
