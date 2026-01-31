@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 
 export function CTASection() {
   return (
@@ -9,13 +8,13 @@ export function CTASection() {
           Ready to Build Something Amazing?
         </h2>
         <p className="text-white/70 text-lg mb-8">
-          Let's discuss your project and create a solution that exceeds your
+          Let&apos;s discuss your project and create a solution that exceeds your
           expectations.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             size="lg"
-            className="cursor-pointer bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700"
+            className="cursor-pointer bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700"
           >
             Schedule a call
           </Button>

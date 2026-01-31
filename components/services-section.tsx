@@ -1,9 +1,6 @@
 import {
   Code2,
-  Sparkles,
   Zap,
-  Users,
-  Target,
   Lightbulb,
   LucideIcon,
 } from "lucide-react";
@@ -17,39 +14,39 @@ interface Service {
 const services: Service[] = [
   {
     icon: Code2,
-    title: "Custom Software Development",
+    title: "Custom Software Systems",
     description:
-      "Tailored solutions built from the ground up to match your unique business requirements.",
+      "We design and build tailored software solutions and internal systems that help businesses streamline operations and scale efficiently.",
   },
   {
     icon: Zap,
-    title: "Web & Mobile Applications",
+    title: "Digital Products & Platforms",
     description:
-      "Responsive, scalable applications that deliver seamless experiences across all devices.",
+      "We develop scalable web and mobile platforms that support business processes, customer experiences, and long-term growth.",
   },
-  {
-    icon: Sparkles,
-    title: "AI & Machine Learning",
-    description:
-      "Intelligent solutions that automate processes and unlock insights from your data.",
-  },
-  {
-    icon: Users,
-    title: "Digital Transformation",
-    description:
-      "Modernize your business with cutting-edge technology and strategic implementation.",
-  },
-  {
-    icon: Target,
-    title: "Cloud Solutions",
-    description:
-      "Secure, scalable cloud infrastructure designed for performance and reliability.",
-  },
+  //   {
+  //     icon: Sparkles,
+  //     title: "AI & Machine Learning",
+  //     description:
+  //       "Intelligent solutions that automate processes and unlock insights from your data.",
+  //   },
+  //   {
+  //     icon: Users,
+  //     title: "Digital Transformation",
+  //     description:
+  //       "Modernize your business with cutting-edge technology and strategic implementation.",
+  //   },
+  //   {
+  //     icon: Target,
+  //     title: "Cloud Solutions",
+  //     description:
+  //       "Secure, scalable cloud infrastructure designed for performance and reliability.",
+  //   },
   {
     icon: Lightbulb,
     title: "Dedicated Engineering Teams",
     description:
-      "Expert teams that integrate seamlessly with your organization to accelerate development and scale technical capacity.",
+      "Extend your technical capacity with dedicated engineers who integrate seamlessly into your projects and workflows.",
   },
 ];
 
@@ -70,9 +67,9 @@ export function ServicesSection() {
           {services.map((service, i) => (
             <div
               key={i}
-              className="group p-6 rounded-2xl bg-gradient-to-br from-[#1a1f3a] via-[#252b4a] to-[#1a2847] border border-white/10 hover:border-blue-500/50 transition-all duration-300 shadow-lg hover:shadow-blue-500/20"
+              className="group p-6 rounded-2xl bg-linear-to-br from-[#1a1f3a] via-[#252b4a] to-[#1a2847] border border-white/10 hover:border-blue-500/50 transition-all duration-300 shadow-lg hover:shadow-blue-500/20"
             >
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <div className="w-12 h-12 rounded-xl bg-linear-to-br from-blue-500 to-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <service.icon className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">

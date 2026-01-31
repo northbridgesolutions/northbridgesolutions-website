@@ -15,7 +15,7 @@ export function AboutSection() {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-0 items-stretch rounded-3xl overflow-hidden">
           {/* Image Side */}
-          <div className="relative h-full min-h-[500px]">
+          <div className="relative h-full min-h-125">
             <Image
               src="/happy-people.webp"
               alt="Northbridge Solutions Team"
@@ -25,18 +25,18 @@ export function AboutSection() {
           </div>
 
           {/* Content Side with colored background */}
-          <div className="bg-gradient-to-br from-[#1a1f3a] via-[#252b4a] to-[#1a2847] p-12 lg:p-16 flex flex-col justify-center">
+          <div className="bg-linear-to-br from-[#1a1f3a] via-[#252b4a] to-[#1a2847] p-12 lg:p-16 flex flex-col justify-center">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Why Choose Northbridge solutions?
             </h2>
             <p className="text-white/90 text-lg mb-8 leading-relaxed">
-              We're not just developers – we're your technology partners
+              We&apos;re not just developers – we&apos;re your technology partners
               committed to your success.
             </p>
             <div className="space-y-4 mb-8">
               {benefits.map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
-                  <CheckCircle2 className="w-6 h-6 text-white flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-6 h-6 text-white shrink-0 mt-0.5" />
                   <span className="text-white/95">{item}</span>
                 </div>
               ))}

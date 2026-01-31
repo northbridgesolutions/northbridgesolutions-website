@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Navigation() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#1a1f3a]/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a
+        <Link
           href="/"
           className="flex items-center gap-3 hover:opacity-90 transition-opacity"
         >
@@ -17,7 +18,7 @@ export function Navigation() {
             className="h-10 w-auto"
             priority
           />
-        </a>
+        </Link>
         <div className="hidden md:flex items-center gap-8">
           <a
             href="#services"
@@ -32,10 +33,10 @@ export function Navigation() {
             About
           </a>
           <a
-            href="#portfolio"
+            href="#case-studies"
             className="text-white/80 hover:text-white transition-colors"
           >
-            Portfolio
+            Case Studies
           </a>
           <a
             href="#contact"
@@ -44,7 +45,7 @@ export function Navigation() {
             Contact
           </a>
         </div>
-        <Button className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700">
+        <Button className="bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700">
           Get Started
         </Button>
       </div>
