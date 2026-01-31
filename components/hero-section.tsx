@@ -14,22 +14,21 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-            Bridging the Gap Between
+            Software Solutions for 
             <br />
-            <span className="bg-gradient-to-r from-blue-400 via-blue-300 to-blue-500 bg-clip-text text-transparent">
-              Tech & Business
+            <span className="bg-linear-to-r from-blue-400 via-blue-300 to-blue-500 bg-clip-text text-transparent">
+              Growing Businesses
             </span>
           </h1>
 
           <p className="text-xl text-white/70 max-w-2xl mx-auto">
-            We craft innovative software solutions that transform businesses and
-            deliver exceptional digital experiences.
+            We design and develop custom digital products and internal systems that help businesses grow faster and operate smarter.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Button
               size="lg"
-              className="cursor-pointer bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white"
+              className="cursor-pointer bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white"
             >
               Schedule a free Consultation <ArrowRight className="w-4 h-4" />
             </Button>
