@@ -14,7 +14,7 @@ export function Footer() {
               className="flex items-center gap-2 text-white/60 hover:text-white transition-colors text-sm"
             >
               <Mail className="w-4 h-4 shrink-0" />
-              <span>hello@northbridgesolutions.com</span>
+              <span>hello@northbridgesolutions.io</span>
             </a>
 
             {/* Right Column - Phone and LinkedIn */}
