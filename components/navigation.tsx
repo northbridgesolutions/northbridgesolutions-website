@@ -20,30 +20,30 @@ export function Navigation() {
           />
         </Link>
         <div className="hidden md:flex items-center gap-8">
-          <a
-            href="#services"
+          <Link
+            href="/#services"
             className="text-white/80 hover:text-white transition-colors"
           >
             Services
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
+            href="/#about"
             className="text-white/80 hover:text-white transition-colors"
           >
             About
-          </a>
-          <a
-            href="#case-studies"
+          </Link>
+          <Link
+            href="/#case-studies"
             className="text-white/80 hover:text-white transition-colors"
           >
             Case Studies
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            href="/#contact"
             className="text-white/80 hover:text-white transition-colors"
           >
             Contact
-          </a>
+          </Link>
         </div>
         <Button className="bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700">
           Get Started
