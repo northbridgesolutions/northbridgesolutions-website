@@ -45,7 +45,7 @@ export function Navigation() {
             Contact
           </Link>
         </div>
-        <Button className="bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700">
+        <Button className="cursor-pointer bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 hover:scale-105 transition-all duration-300 ease-out">
           Get Started
         </Button>
       </div>

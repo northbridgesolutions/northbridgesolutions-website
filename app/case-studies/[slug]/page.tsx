@@ -23,14 +23,14 @@ export default async function CaseStudyPage({
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen animate-fadeIn">
       {/* Back Button */}
       <div className="px-6 pt-24 pb-8">
         <div className="max-w-5xl mx-auto">
           <Link href="/#case-studies">
             <Button
               variant="outline"
-              className="border-white/20 hover:bg-white/10"
+              className="border-white/20 hover:scale-105 transition-all duration-300 ease-out"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Case Studies
@@ -274,7 +274,7 @@ export default async function CaseStudyPage({
             </p>
             <Button
               size="lg"
-              className="bg-white text-blue-600 hover:bg-white/90 font-semibold"
+              className="cursor-pointer bg-white text-blue-600 hover:bg-white/90 hover:scale-105 transition-all duration-300 ease-out font-semibold"
             >
               Schedule a Free Consultation
             </Button>
