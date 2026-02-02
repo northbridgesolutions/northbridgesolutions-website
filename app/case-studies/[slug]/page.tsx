@@ -275,8 +275,15 @@ export default async function CaseStudyPage({
             <Button
               size="lg"
               className="cursor-pointer bg-white text-blue-600 hover:bg-white/90 hover:scale-105 transition-all duration-300 ease-out font-semibold"
+              asChild
             >
-              Schedule a Free Consultation
+              <a
+                href="https://calendly.com/hello-northbridgesolutions/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Schedule a Free Consultation
+              </a>
             </Button>
           </div>
         </div>

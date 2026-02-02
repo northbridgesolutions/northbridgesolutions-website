@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.northbridgesolutions.io"),
   title:
     "Northbridge Solutions | Professional Software Development & Engineering Services",
   description:

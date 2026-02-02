@@ -15,8 +15,15 @@ export function CTASection() {
           <Button
             size="lg"
             className="cursor-pointer bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 hover:scale-105 transition-all duration-300 ease-out"
+            asChild
           >
-            Schedule a call
+            <a
+              href="https://calendly.com/hello-northbridgesolutions/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Schedule a call
+            </a>
           </Button>
         </div>
       </div>

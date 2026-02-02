@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -30,15 +31,23 @@ export function HeroSection() {
             <Button
               size="lg"
               className="cursor-pointer bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 hover:scale-105 transition-all duration-300 ease-out text-white"
+              asChild
             >
-              Schedule a free Consultation <ArrowRight className="w-4 h-4" />
+              <a
+                href="https://calendly.com/hello-northbridgesolutions/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Schedule a free Consultation <ArrowRight className="w-4 h-4" />
+              </a>
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="border-white/20 cursor-pointer hover:scale-105 transition-all duration-300 ease-out"
+              asChild
             >
-              View Our Work
+              <Link href="/#case-studies">View Our Work</Link>
             </Button>
           </div>
         </div>
