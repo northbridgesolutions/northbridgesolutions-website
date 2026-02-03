@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-white/10 py-12 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Footer Content */}
-        <div className="flex justify-between items-start mb-8">
+        <div className="flex flex-col md:flex-row md:justify-between items-start gap-8 mb-8">
           {/* Address on the left */}
           <div className="flex items-start gap-2 text-white/60 text-sm">
             <MapPin className="w-4 h-4 shrink-0 mt-0.5" />

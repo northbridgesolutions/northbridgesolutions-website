@@ -30,7 +30,7 @@ export default async function CaseStudyPage({
           <Link href="/#case-studies">
             <Button
               variant="outline"
-              className="border-white/20 hover:scale-105 transition-all duration-300 ease-out"
+              className="cursor-pointer border-white/20 hover:scale-105 transition-all duration-300 ease-out"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Case Studies
@@ -263,18 +263,18 @@ export default async function CaseStudyPage({
 
       {/* CTA Section */}
       <section className="px-6 py-20">
-        <div className="max-w-5xl mx-auto">
-          <div className="p-12 rounded-2xl bg-linear-to-br from-blue-600 to-blue-700 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Ready to achieve similar results?
-            </h2>
-            <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-              Let&apos;s discuss how we can help transform your business with
-              the right technology solution.
-            </p>
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            Ready to achieve similar results?
+          </h2>
+          <p className="text-white/70 text-lg mb-8">
+            Let&apos;s discuss how we can help transform your business with the
+            right technology solution.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="cursor-pointer bg-white text-blue-600 hover:bg-white/90 hover:scale-105 transition-all duration-300 ease-out font-semibold"
+              className="cursor-pointer bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 hover:scale-105 transition-all duration-300 ease-out"
               asChild
             >
               <a
