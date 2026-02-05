@@ -10,9 +10,11 @@ export function Footer() {
           <div className="flex items-start gap-2 text-white/60 text-sm">
             <MapPin className="w-4 h-4 shrink-0 mt-0.5" />
             <span className="leading-relaxed">
-              123 Tech Street
+              28 Geary St
               <br />
-              San Francisco, CA 94102
+              Ste 650 #1763
+              <br />
+              San Francisco, CA 94108
               <br />
               United States
             </span>
@@ -30,11 +32,11 @@ export function Footer() {
               </a>
 
               <a
-                href="tel:+1234567890"
+                href="tel:+14158020765"
                 className="flex items-center gap-2 text-white/60 hover:text-white transition-colors text-sm"
               >
                 <Phone className="w-4 h-4 shrink-0" />
-                <span>+1 (234) 567-890</span>
+                <span>+1 415 802 0765</span>
               </a>
 
               <a
